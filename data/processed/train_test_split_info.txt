@@ -1,0 +1,21 @@
+INFORMATIONS SUR LE TRAIN/TEST SPLIT
+============================================================
+
+Train size: 14,952
+Test size: 3,739
+Test ratio: 0.2
+Random state: 42
+
+Distribution Train:
+  action: 5.87%
+  comedy: 23.43%
+  drama: 31.91%
+  horror: 6.25%
+  unknown: 32.54%
+
+Distribution Test:
+  action: 5.88%
+  comedy: 23.43%
+  drama: 31.91%
+  horror: 6.23%
+  unknown: 32.55%

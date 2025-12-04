@@ -1,0 +1,27 @@
+============================================================
+RAPPORT DE CLASSIFICATION - Naive Bayes
+============================================================
+
+Pour chaque classe:
+  - Precision: Sur les prédictions de cette classe, combien sont correctes?
+  - Recall: Sur tous les vrais échantillons de cette classe, combien détectés?
+  - F1-Score: Moyenne harmonique de precision et recall
+  - Support: Nombre d'échantillons réels de cette classe
+
+------------------------------------------------------------
+
+              precision    recall  f1-score   support
+
+     unknown     0.6286    0.1000    0.1725       220
+       drama     0.6684    0.5822    0.6223       876
+      comedy     0.5854    0.6865    0.6319      1193
+      horror     0.7799    0.5322    0.6327       233
+      action     0.6522    0.7412    0.6938      1217
+
+    accuracy                         0.6357      3739
+   macro avg     0.6629    0.5284    0.5507      3739
+weighted avg     0.6413    0.6357    0.6229      3739
+
+============================================================
+Note: weighted avg = moyenne pondérée par le support de chaque classe
+============================================================

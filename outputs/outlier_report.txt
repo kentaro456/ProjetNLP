@@ -1,0 +1,42 @@
+============================================================
+RAPPORT DE DÉTECTION D'OUTLIERS - ISOLATION FOREST
+============================================================
+
+1. STATISTIQUES GLOBALES
+------------------------------------------------------------
+Total échantillons: 14,952
+Inliers (gardés): 13,456 (89.99%)
+Outliers (supprimés): 1,496 (10.01%)
+
+2. STATISTIQUES PAR GENRE
+------------------------------------------------------------
+
+action:
+  Total: 878
+  Inliers: 776
+  Outliers: 102 (11.62%)
+
+comedy:
+  Total: 3,503
+  Inliers: 3,128
+  Outliers: 375 (10.71%)
+
+drama:
+  Total: 4,771
+  Inliers: 4,313
+  Outliers: 458 (9.60%)
+
+horror:
+  Total: 934
+  Inliers: 734
+  Outliers: 200 (21.41%)
+
+unknown:
+  Total: 4,866
+  Inliers: 4,505
+  Outliers: 361 (7.42%)
+
+============================================================
+Note: Les outliers ont été détectés sur le TRAIN SET uniquement.
+Le TEST SET reste intact pour une évaluation non biaisée.
+============================================================

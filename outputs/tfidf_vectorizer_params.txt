@@ -1,0 +1,9 @@
+PARAMÈTRES DU TFIDF VECTORIZER
+============================================================
+
+Vocabulary size: 5,000
+max_features: 5000
+ngram_range: (1, 2)
+min_df: 2
+max_df: 0.8
+sublinear_tf: True

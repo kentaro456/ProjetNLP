@@ -1,0 +1,66 @@
+# ============================================================
+# PROJET NLP - CLASSIFICATION DE GENRES DE FILMS
+# Auteur: LUKAU
+# Professeur: Rakia JAZIRI
+# Master 1 Big Data
+# ============================================================
+
+# Data Manipulation
+# ---------------------------------------------------------
+pandas>=1.5.0          # DataFrames et analyse de données
+numpy>=1.23.0          # Calculs numériques et matrices
+
+# Machine Learning
+# ---------------------------------------------------------
+scikit-learn>=1.2.0    # Modèles ML, métriques, preprocessing
+                       # Contient: TF-IDF, PCA, Naive Bayes, SVM, Random Forest,
+                       #           Isolation Forest, train_test_split, metrics
+
+# Natural Language Processing (NLP)
+# ---------------------------------------------------------
+nltk>=3.8              # Stopwords anglais et preprocessing textuel
+
+# Visualization
+# ---------------------------------------------------------
+matplotlib>=3.6.0      # Graphiques et visualisations
+seaborn>=0.12.0        # Visualisations statistiques (heatmaps, etc.)
+
+# Dataset Download
+# ---------------------------------------------------------
+kagglehub>=0.1.0       # Téléchargement automatique depuis Kaggle
+
+# Model Persistence
+# ---------------------------------------------------------
+joblib>=1.2.0          # Sauvegarde/chargement de modèles scikit-learn
+
+# Utilities
+# ---------------------------------------------------------
+scipy>=1.9.0           # Support pour matrices sparse (TF-IDF)
+
+# ============================================================
+# INSTALLATION
+# ============================================================
+# 1. Créer un environnement virtuel:
+#    python -m venv venv
+#    source venv/bin/activate  # Linux/Mac
+#    venv\Scripts\activate     # Windows
+#
+# 2. Installer les dépendances:
+#    pip install -r requirements.txt
+#
+# 3. Télécharger les données NLTK:
+#    python -c "import nltk; nltk.download('stopwords')"
+#
+# 4. Configurer Kaggle (optionnel):
+#    Placer kaggle.json dans ~/.kaggle/ (Linux/Mac)
+#    ou %USERPROFILE%\.kaggle\ (Windows)
+#
+# 5. Exécuter le projet:
+#    python main.py
+# ============================================================
+
+# VERSIONS TESTÉES
+# ============================================================
+# Python: 3.8, 3.9, 3.10, 3.11
+# OS: Windows 10/11, Ubuntu 20.04+, macOS 10.15+
+# ============================================================
